@@ -49,6 +49,9 @@ telephony.lteOnCdmaDevice=1
 # Simulate sdcard on /data/media
 persist.fuse_sdcard=true
 
+# Disable display refresh rate override
+ro.surface_flinger.enable_frame_rate_override=false
+
 # settings to enable Device Orientation Sensors
 ro.qti.sensors.dev_ori=true
 
